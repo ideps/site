@@ -3,7 +3,7 @@
   background: rgba(0, 0, 0, 0.60);
   background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),
-    url('/assets/img/hero-bg.jpg');
+    url('/site/assets/img/hero-bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

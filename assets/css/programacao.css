@@ -1,6 +1,6 @@
 #programacao {
   padding: 120px 0;
-  background-image: url('/assets/img/programacao-bg.jpg');
+  background-image: url('/site/assets/img/programacao-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -42,7 +42,7 @@
 
 #programacao .info-culto {
   position: absolute;
-  background-image: url('/assets/img/info-culto-bg.jpg');
+  background-image: url('/site/assets/img/info-culto-bg.jpg');
   background-repeat: no-repeat;
   /* background-size: cover; */
   background-position: top left;
