@@ -1,0 +1,41 @@
+#lideranca {
+  padding: 100px 0;
+  /* background-image: url('/assets/img/pastores-bg.jpg'); */
+  background-image: linear-gradient(to bottom, #5A5758, #5A5758);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center top 250px;
+}
+
+@media (max-width: 1399.98px) {
+  #lideranca {
+    background: none;
+    background-color: #5A5758;
+  }
+}
+
+#lideranca img {
+  width: 720px;
+}
+
+#lideranca h2, #lideranca p {
+  color: #fff;
+}
+
+#lideranca p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+#lideranca a {
+  border: 1px solid #FFF;
+  color: #fff;
+  width: 100%;
+  max-width: 500px;
+}
+
+@media (max-width: 575.98px) {
+  #lideranca p {
+    font-size: 1.2rem;
+  }
+}

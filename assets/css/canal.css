@@ -1,0 +1,71 @@
+#canal {
+  height: 775px;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+#canal span, #canal h2, #canal p {
+  color: #000;
+}
+
+#canal p {
+  width: 100%;
+  max-width: 540px;
+  font-size: 2rem;
+  line-height: 143%;
+  font-weight: 300;
+}
+
+#canal a {
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  width: fit-content;
+}
+
+#canal img {
+  position: absolute;
+  border-radius: 0 0 0 800px;
+  top: 0;
+  right: 0;
+}
+
+@media (min-width: 1400px) and (max-width: 1819.98px) {
+  #canal img {
+    right: -260px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  #canal img {
+    right: -420px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #canal img {
+    right: -590px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #canal {
+    height: auto;
+    padding: 100px 0 0;
+  }
+
+  #canal img {
+    position: relative;
+    width: 100%;
+    margin: 50px 0;
+    border-radius: 0 30% 0% 55%;
+    left: unset;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #canal p {
+    font-size: 1.2rem;
+  }
+}
